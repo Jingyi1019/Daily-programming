@@ -1,0 +1,10 @@
+Data structures: linked list
+
+create a linked list: linkedlist = deque()
+add elements: linkedlist. append() o(1)
+              linkedlist. insert() o(N)
+access: element = linkedlist [2] o(N)
+search: index = linkedlist. index(99) o(N)
+update: linkedlist [2] = 88 o(N)
+delete: linkedlist. remove (88) o(N)
+length: length = len(linkedlist)
