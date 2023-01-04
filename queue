@@ -1,0 +1,12 @@
+
+Single-ended queues: only one access port
+Double-ended queue: both ports can be entered and exited
+
+Create: queue = deque()
+Add: queue. append() o(1)
+Get: temp1 = queue[0] o(1)
+Delete: temp1 = queue. popleft o(1)
+Determine if the queue is empty: len(queue) == 0
+Iterate through the queue: while len(queue) ! = 0:
+                               temp = queue. popleft
+                               print(temp)
