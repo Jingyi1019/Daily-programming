@@ -1,0 +1,11 @@
+Day 20: stack
+
+create: stack = [ ]
+add: stack.append(1)   o(1)
+get: stack[-1]   o(1)
+delete: temp = stack.pop( )   o(1)
+size: len(stack)    o(1)
+empty: len(stack) == 0     o(1)
+iterate: while len(stack) > 0:
+             temp = stack.pop( )
+             print(temp)
