@@ -1,0 +1,21 @@
+Hash table stores key-value pairs but the key is generated through a hashing function.
+
+create: hashtable = [ ]
+create(dictionary): mapping = { }
+
+add: hashtable [ ] = 'apple'
+add(dictionary): mapping [ ] = 'apple'.       o(1)
+
+update: hashtable [ ] = 'apple'
+update(dictionary): mapping [ ] = 'apple'.      o(1)
+
+delete: hashtable [1] = '  '
+delete(dictionary): mapping.pop(1)
+                    del mapping [1].        o(1)
+
+get: hashtable [3]
+get(dictionary): mapping [3]       o(1)
+
+Check if the key exists： 3 in mapping        o(1) 
+length: len(mapping).       o(1)
+Check if there are still elements： len(mapping) == 0
