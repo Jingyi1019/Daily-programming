@@ -1,0 +1,7 @@
+Sets are used to store multiple items in a single variable. Set are unordered and unduplicated.
+
+create: s = set( )
+add: s.add(10) o(1)
+search: 2 in s o(1)
+delete: s.remove(2) o(1)
+length: len(s) o(1)
