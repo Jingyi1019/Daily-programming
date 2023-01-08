@@ -1,0 +1,15 @@
+A Tree is a Data structure in which data items are connected using references in a hierarchical manner. Each Tree consists of a root node from which we can access each element of the tree. Starting from the root node, each node contains zero or more nodes connected to it as children. 
+A binary tree is a tree data structure in which each node can have a maximum of 2 children. It means that each node in a binary tree can have either one or two or no children. Each node in a binary tree contains data and references to its children. Both the children are named the left child and the right child according to their position. 
+Traversal is a process to visit all the nodes of a tree and may print their values too. Because, all nodes are connected via edges (links) we always start from the root (head) node. That is, we cannot randomly access a node in a tree. There are three ways which we use to traverse a tree:
+In-order Traversal
+Pre-order Traversal
+Post-order Traversal
+
+Heap: A data structure of binary tree.
+create: minheap = [ ]
+        heapq.heapify(minheap)
+add: heapq.heappush(minheap, 10)
+delete: heapq.heapq(minheap)
+size: len(minheap)
+iteration: while len(minheap) != 0:
+             print(heapq.heappop(minheap))
