@@ -1,0 +1,19 @@
+Today I did question 27. remove element. This is a question about arrays, my solution is python's fast and slow pointers.
+When I did this question, I didn't set len(nums). I also had the indentation problem and needed to pay attention to the fast pointer indent.
+
+class Solution(object):
+    def removeElement(self, nums, val):
+        """
+        :type nums: List[int]
+        :type val: int
+        :rtype: int
+        """
+        fast = 0
+        slow = 0
+        size = len(nums)
+        while fast < size:
+            if nums[fast] != val:
+                nums[slow] = nums[fast]
+                slow += 1
+            fast += 1
+        return slow
