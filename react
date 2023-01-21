@@ -14,3 +14,19 @@ const page = (
 )
 ReactDOM.render(page, document.getElementById("root"))
 
+
+
+How do you pass a prop into a component?
+<MyAwesomeHeader title="???" />
+
+
+How do I receive props in a component?
+function Navbar(props) {
+    console.log(props.blahblahblah)
+    return (
+        <header>
+            ...
+        </header>
+    )
+}
+
