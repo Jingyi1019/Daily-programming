@@ -1,3 +1,16 @@
+
+
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="root"></div>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+
 import React from "react"
 import ReactDOM from "react-dom"
 const page = (
@@ -18,6 +31,19 @@ ReactDOM.render(page, document.getElementById("root"))
 
 How do you pass a prop into a component?
 <MyAwesomeHeader title="???" />
+
+function Page() {
+    return (
+        <div>
+            <Header />
+            <MainContent />
+            <Footer />
+        </div>
+    )
+}
+
+ReactDOM.render(<Page />, document.getElementById("root"))
+
 
 
 How do I receive props in a component?
