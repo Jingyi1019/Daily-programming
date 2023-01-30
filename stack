@@ -9,3 +9,5 @@ empty: len(stack) == 0     o(1)
 iterate: while len(stack) > 0:
              temp = stack.pop( )
              print(temp)
+             
+             
