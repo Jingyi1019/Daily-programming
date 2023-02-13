@@ -1,0 +1,11 @@
+This is the code of the use of font family, and text-align.
+
+
+<h1>Contact me</h1>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Castoro">
+	<style>
+		h1 {
+			text-align: center;
+			font-family: 'Castoro', serif;
+		}
+	</style>
