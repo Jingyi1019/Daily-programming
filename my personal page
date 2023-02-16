@@ -1,0 +1,10 @@
+Today I downloaded the image from jsdelivr and changed the colour and size. Also adjusted the distance between the text and the image.
+Where the size of the image is displayed in width and height. If you want to adjust the position of the picture and the text, you have to write margin-left:10px and margin-right:10px on both sides respectively
+80% complete, keep up the good work!
+
+
+<div class="skills__names">
+<img src="assets/img/python-logo-24 (1).png" style="width: 32px;height:32px; margin-right:10px">
+<span class="skills__name" style="margin-left: 10px">Python</span>
+
+</div>
